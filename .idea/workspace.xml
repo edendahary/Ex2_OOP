@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03e216fe-7bcb-4bad-aae1-98b95fde686e" name="Default Changelist" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ex2Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$DijkstraResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$DijkstraResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ex2/dataStructure/DGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/dataStructure/DGraph.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Edge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Graph_Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Graph_Algo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Graph_AlgoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Graph_AlgoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/DGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/DGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Node.java" afterDir="false" />
+    <list default="true" id="03e216fe-7bcb-4bad-aae1-98b95fde686e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +166,13 @@
       <option name="presentableId" value="LOCAL‎00002" />
       <updated>1577994359970</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎00003" summary="Initial commit">
+      <created>1578264274738</created>
+      <option name="number" value="LOCAL‎00003" />
+      <option name="presentableId" value="LOCAL‎00003" />
+      <updated>1578264274738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,10 +205,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="163" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578186296566" />
-    <state x="467" y="24" key="CommitChangelistDialog2" timestamp="1577994593955">
+    <state x="467" y="24" key="CommitChangelistDialog2" timestamp="1578264273322">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="467" y="24" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577994593955" />
+    <state x="467" y="24" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578264273322" />
     <state width="498" height="438" key="DebuggerActiveHint" timestamp="1578258966786">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -252,10 +245,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578263282802" />
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1577994905998">
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1578264291115">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577994905998" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1578264291115" />
     <state x="498" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577799264129">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
