@@ -1,11 +1,16 @@
 package dataStructure;
 
+import org.junit.jupiter.params.provider.EnumSource;
+
+import java.io.Serializable;
 import java.util.*;
 
-public class DGraph implements graph{
+public class DGraph implements graph, Serializable {
 	private final Map<Integer, edge_data> edgeDataMap = new HashMap<>();
 	private final Map<node_data, Set<edge_data>> nodeDataEdgeMap =  new HashMap<>();
 	private final List<node_data> nodeDataList = new ArrayList<>();
+	private int modeCount = 0;
+
     @Override
 	public node_data getNode(int key) {
 		node_data nodeData = null;
@@ -25,12 +30,14 @@ public class DGraph implements graph{
 
 	@Override
 	public void addNode(node_data n) {
+		modeCount++;
 		this.nodeDataList.add(n);
 		this.nodeDataEdgeMap.put(n, new HashSet<>());
 	}
 
 	@Override
 	public void connect(int src, int dest, double w) {
+		modeCount++;
         Edge edge = new Edge(src, dest, w);
         this.edgeDataMap.put(Edge.hashCode(src, dest), edge);
         this.nodeDataEdgeMap.get(getNode(src)).add(edge);
@@ -50,18 +57,18 @@ public class DGraph implements graph{
 	public node_data removeNode(int key) {
         node_data nodeDataToRemove = null;
 
-        this.nodeDataEdgeMap.remove(getNode(key));
-
-        for(node_data nodeData : this.nodeDataList) {
-            if(nodeData.getKey() == key) {
-                nodeDataToRemove = nodeData;
-                break;
-            }
-        }
+		for(node_data nodeData : this.nodeDataList) {
+			if(nodeData.getKey() == key) {
+				nodeDataToRemove = nodeData;
+				break;
+			}
+		}
 
         if(nodeDataToRemove == null) {
             return null;
-        } else {//??
+        } else {
+			modeCount++;
+			this.nodeDataEdgeMap.remove(getNode(key));
             this.nodeDataList.remove(nodeDataToRemove);
 
             for(node_data nodeData : this.nodeDataList) {
@@ -73,10 +80,10 @@ public class DGraph implements graph{
                 }
 
                 // check edge (nodeData, nodeDataToRemove)
-
                 edgeHashcodeSrc = Edge.hashCode(nodeData.getKey(), nodeDataToRemove.getKey());
 
                 if(this.edgeDataMap.containsKey(edgeHashcodeSrc)) {
+					this.nodeDataEdgeMap.get(nodeData).remove(this.edgeDataMap.get(edgeHashcodeSrc)); 	// remove from edge set of nodeData
                     this.edgeDataMap.remove(edgeHashcodeSrc);
                 }
             }
@@ -90,6 +97,7 @@ public class DGraph implements graph{
 		int edgeHashcode = Edge.hashCode(src, dest);
 
 		if(this.edgeDataMap.containsKey(edgeHashcode)) {
+			modeCount++;
 		    edge_data edgeData = this.edgeDataMap.get(edgeHashcode);
 		    this.edgeDataMap.remove(edgeHashcode);
             this.nodeDataEdgeMap.get(getNode(src)).remove(edgeData);
@@ -111,27 +119,6 @@ public class DGraph implements graph{
 
 	@Override
 	public int getMC() {
-		// TODO Auto-generated method stub
-		return 0;
+		return modeCount;
 	}
-
-	public static void main(String[] args) {
-        DGraph graph  =new DGraph();
-        graph.addNode(new Node(1, null, 3, null, 0));
-        graph.addNode(new Node(2, null, 3, null, 0));
-		graph.addNode(new Node(3, null, 3, null, 0));
-        graph.connect(1, 2, 5);
-		graph.connect(2, 3, 5);
-		graph.connect(3, 1, 5);
-		graph.removeNode(1);
-		int x=graph.nodeSize();
-		System.out.println(x);
-		graph.removeNode(2);
-		x=graph.nodeSize();
-		System.out.println(x);
-		int y=graph.edgeSize();
-		System.out.println(y);
-
-	}
-
 }

@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03e216fe-7bcb-4bad-aae1-98b95fde686e" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Ex2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$DijkstraResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo$DijkstraResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/algorithms/Graph_Algo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/dataStructure/DGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/dataStructure/DGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Edge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Edge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Ex2/dataStructure/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Graph_Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Graph_Algo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Graph_AlgoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Graph_AlgoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/DGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/DGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dataStructure/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dataStructure/Node.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Eden Dahary\IdeaProjects\Ex2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UzuUdoFNzznv0a8ZuIz3W5gGih" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="algorithms" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Eden Dahary\IdeaProjects\Ex2\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Graph_AlgoTest.drawGraph">
+    <configuration name="Gui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dataStructure.Gui" />
+      <module name="Ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dataStructure.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex2Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2Test.testConnectivity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex2Test" />
+      <option name="METHOD_NAME" value="testConnectivity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex2Test.testgraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Ex2Test" />
+      <option name="METHOD_NAME" value="testgraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Graph_AlgoTest.drawGraph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ex2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="algorithms" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.Graph_AlgoTest" />
+      <option name="METHOD_NAME" value="drawGraph" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Graph_AlgoTest.drawGraph" />
+        <item itemvalue="JUnit.Ex2Test" />
+        <item itemvalue="JUnit.Ex2Test.testConnectivity" />
+        <item itemvalue="JUnit.Ex2Test.testgraph" />
+        <item itemvalue="Application.Gui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03e216fe-7bcb-4bad-aae1-98b95fde686e" name="Default Changelist" comment="" />
+      <created>1576371761647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576371761647</updated>
+    </task>
+    <task id="LOCAL‎00001" summary="Initial commit">
+      <created>1577105332530</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1577105332530</updated>
+    </task>
+    <task id="LOCAL‎00002" summary="Initial commit">
+      <created>1577994359970</created>
+      <option name="number" value="LOCAL‎00002" />
+      <option name="presentableId" value="LOCAL‎00002" />
+      <updated>1577994359970</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="497" y="223" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578236075132">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="497" y="223" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1578236075132" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1578237286624">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578237286624" />
+    <state x="499" y="163" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1578186296566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="163" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1578186296566" />
+    <state x="467" y="24" key="CommitChangelistDialog2" timestamp="1577994593955">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="24" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1577994593955" />
+    <state width="498" height="438" key="DebuggerActiveHint" timestamp="1578258966786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="438" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1578258966786" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1578263991872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578263991872" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1578263991872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578263991872" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1578263991872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578263991872" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1578263991872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578263991872" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1578263282802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578263282802" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1578263282802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578263282802" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1578263282802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578263282802" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1578263282802">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578263282802" />
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2" timestamp="1577994905998">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="149" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1577994905998" />
+    <state x="498" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1577799264129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="315" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1577799264129" />
+    <state x="540" y="133" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577799226613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="133" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1577799226613" />
+    <state x="598" y="254" key="export.test.results" timestamp="1578184106365">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="598" y="254" key="export.test.results/0.0.1536.824@0.0.1536.824" timestamp="1578184106365" />
+    <state x="474" y="46" width="588" height="732" key="find.popup" timestamp="1578188584975">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="474" y="46" width="588" height="732" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1578188584975" />
+    <state x="209" y="40" key="new project wizard" timestamp="1577718803749">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="40" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1577718803749" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1578002093579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1578002093579" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="graph.nodeDataList.get(2)" language="JAVA" />
+        <watch expression="graph.nodeDataList.get(2)" />
+        <watch expression="edge" />
+        <watch expression="edge" />
+        <watch expression="((HashMap)graph.edgeDataMap).entrySet().toArray()[0]" custom="java.util.HashMap" />
+        <watch expression="((HashMap.Node)((HashMap)graph.edgeDataMap).entrySet().toArray()[2]).getKey()" custom="java.util.HashMap.Node,java.util.HashMap" />
+        <watch expression="((HashMap.Node)((HashMap)graph.edgeDataMap).entrySet().toArray()[2]).getKey()" language="JAVA" custom="java.util.HashMap.Node,java.util.HashMap" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
