@@ -128,24 +128,18 @@ public class Graph_AlgoTest {
         DGraph g = new DGraph();
         GA.init(g);
 
-        g.addNode(new Node(1,new Point3D(1, 2),3,null,0));
+        g.addNode(new Node(1,new Point3D(50, 20),3,null,0));
         g.addNode(new Node(2,new Point3D(3.5, 4),1,null,4));
         g.addNode(new Node(3,new Point3D(7, -2),3,null,1));
         g.addNode(new Node(4,new Point3D(0, 0),9,null,2));
         g.addNode(new Node(5,new Point3D(2, -3),8,null,3));
-        g.connect(2,1,1);
+        g.connect(1,4,1);
         g.connect(4,5,12);
         g.connect(1,2,2);
         g.connect(2,3,4);
         g.connect(3,5,11);
         g.connect(1,4,7.6);
         GA.drawGraph();
-        try {
 
-            Thread.sleep(15000);
-        }
-        catch (Exception e) {
-            e.printStackTrace();
-        }
     }
 }

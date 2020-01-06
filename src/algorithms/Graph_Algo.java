@@ -260,7 +260,7 @@ public class Graph_Algo implements graph_algorithms{
 		for(node_data nodeData : this.graph.getV()) {
 			StdDraw.filledCircle(nodeData.getLocation().x(), nodeData.getLocation().y(), circleRadius);
 			StdDraw.setPenColor(Color.blue);
-			StdDraw.setPenRadius(0.05);
+			StdDraw.setPenRadius(0.02);
 			Point3D p = nodeData.getLocation();
 			StdDraw.point(p.x(), p.y());
 			String s = nodeData.getKey()+"";
@@ -278,11 +278,18 @@ public class Graph_Algo implements graph_algorithms{
 				Point3D src = nd.getLocation();
 				Point3D dest = graph.getNode(EDGE.getDest()).getLocation();
 				double w = EDGE.getWeight();
-				StdDraw.setPenColor(Color.green);
+				StdDraw.setPenColor(Color.black);
 				StdDraw.line(src.x(), src.y(), dest.x(), dest.y());
 				StdDraw.setPenColor(Color.red);
 				StdDraw.text((dest.x()+src.x())/2, (dest.y()+src.y())/2, String.format("%.1f", w));
 			}
+		}
+		try {
+
+			Thread.sleep(10000);
+		}
+		catch (Exception e) {
+			e.printStackTrace();
 		}
 	}
 }
