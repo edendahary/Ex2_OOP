@@ -1,9 +1,9 @@
 # Ex2_OOP_New
-## This is an object oriented programmin project which his main idea is based on functions.
+### This is an object oriented programmin project which his main idea is based on functions.
 
-## This Project Made by Eden Dahary Student in Ariel University.
+### This Project Made by Eden Dahary Student in Ariel University.
 
-## This project contains an stdDraw interface .
+### This project contains an stdDraw interface .
 
 in this project we implements data structure, algorithms and GUI.
 we needed to create a directional weighted graph.
